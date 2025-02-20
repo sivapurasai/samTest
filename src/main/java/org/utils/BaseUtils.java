@@ -43,6 +43,16 @@ public class BaseUtils {
 			return element;
 		}
 		
+		public static WebElement findElementtttttt(By by) {
+			WebElement element = null;
+			try {
+				element = driver.findElement(by);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			return element;
+		}
+		
 		public static WebElement findElement(By by) {
 			WebElement element = null;
 			try {
